@@ -47,6 +47,21 @@ nav ul li a:hover{
     color:#F8F5EC;
 }
 
+/* CV Button */
+.cv-button {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cv-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
 /* Hero */
 .hero{
     text-align:center;
