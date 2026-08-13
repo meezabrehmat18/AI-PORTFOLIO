@@ -183,22 +183,25 @@ nav ul{
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
-/* Contact CV Button */
+/* Resume */
 
-.contact-cv-button{
-    display:block;
-    width:fit-content;
-    margin:30px auto 0;
+#resume{
+    text-align:center;
+}
+
+.resume-button{
+    display:inline-block;
+    margin-top:5px;
     padding:12px 28px;
     background:#6B8E23;
-    color:white !important;
-    text-decoration:none !important;
+    color:white;
+    text-decoration:none;
     border-radius:6px;
     font-weight:bold;
     transition:0.3s ease;
 }
 
-.contact-cv-button:hover{
+.resume-button:hover{
     background:#556B2F;
     transform:translateY(-2px);
 }
