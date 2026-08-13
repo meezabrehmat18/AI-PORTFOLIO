@@ -45,32 +45,6 @@ transition:.3s;
 white-space:nowrap;
 }
 
-nav ul li a:hover
-
-/* CV Button */
-
-/* CV Button */
-
-nav .cv-button{
-    display:inline-block;
-    margin-left:25px;
-    padding:9px 18px;
-    background:#F8F5EC;
-    color:#556B2F;
-    border:2px solid #F8F5EC;
-    border-radius:6px;
-    text-decoration:none;
-    font-weight:bold;
-    white-space:nowrap;
-    transition:0.3s ease;
-}
-
-nav .cv-button:hover{
-    background:transparent;
-    color:white;
-    border-color:white;
-}
-
 /* Hero */
 
 .hero{
@@ -208,4 +182,23 @@ nav ul{
     background: white;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Hero CV Button */
+
+.hero-cv-button{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 28px;
+    background:#6B8E23;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s ease;
+}
+
+.hero-cv-button:hover{
+    background:#556B2F;
+    transform:translateY(-2px);
 }
