@@ -66,6 +66,17 @@ background:white;
 color:#6B8E23;
 }
 
+/* About Me */
+
+#about{
+    text-align:center;
+}
+
+#about p{
+    max-width:800px;
+    margin:0 auto;
+    line-height:1.8;
+}
 /* Hero */
 
 .hero{
