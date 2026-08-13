@@ -66,24 +66,6 @@ background:white;
 color:#6B8E23;
 }
 
-/* About Me and Future Work */
-
-#about,
-#future-work{
-    text-align:center;
-}
-
-#about p,
-#future-work p{
-    max-width:850px;
-    margin:0 auto;
-    padding:25px 35px;
-    line-height:1.8;
-    text-align:center;
-    background:white;
-    border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.08);
-}
 /* Hero */
 
 .hero{
@@ -200,4 +182,25 @@ nav ul{
 }
 ```
 
+}
+/* Center About Me and Future Work */
+
+#about,
+#future-work {
+    width: 85%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#about p,
+#future-work p {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 40px;
+    text-align: center;
+    line-height: 1.8;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
