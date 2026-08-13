@@ -49,21 +49,26 @@ nav ul li a:hover
 
 /* CV Button */
 
-.cv-button{
-margin-left:25px;
-padding:8px 16px;
-border:2px solid white;
-border-radius:6px;
-color:white;
-text-decoration:none;
-font-weight:bold;
-white-space:nowrap;
-transition:.3s ease;
+/* CV Button */
+
+nav .cv-button{
+    display:inline-block;
+    margin-left:25px;
+    padding:9px 18px;
+    background:#F8F5EC;
+    color:#556B2F;
+    border:2px solid #F8F5EC;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    white-space:nowrap;
+    transition:0.3s ease;
 }
 
-.cv-button:hover{
-background:white;
-color:#6B8E23;
+nav .cv-button:hover{
+    background:transparent;
+    color:white;
+    border-color:white;
 }
 
 /* Hero */
