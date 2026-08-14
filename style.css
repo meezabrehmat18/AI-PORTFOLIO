@@ -290,3 +290,19 @@ footer {
     margin-bottom: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+/* SMALL CERTIFICATE PREVIEW */
+
+.certificate-card {
+    text-align: center;
+}
+
+.certificate-card .certificate-img {
+    display: block;
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: contain;
+    margin: 0 auto 15px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
