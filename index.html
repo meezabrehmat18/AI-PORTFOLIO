@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meezab Rehmat | AI Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 ```
@@ -23,185 +20,209 @@
 </nav>
 
 <section id="home" class="hero">
+    <div class="hero-text">
     <h1>Meezab Rehmat</h1>
-
-    <img src="portfolio.jpg" alt="Meezab Rehmat" class="profile-img">
-
-    <p>
-        Software Engineering Student | Software Developer | Cybersecurity Enthusiast
+   <p>
+        Software Engineering Student | Software Developer <br> 
+        Cybersecurity Enthusiast
     </p>
-
+    </div>
+    <img src="portfolio.jpg" alt="Meezab Rehmat" class="profile-img">
 </section>
 
-
 <section id="about">
-    <h2>About Me</h2>
-
-    <p class="about-text">
+    <div class="about-box">
+    <p>
         I am a Software Engineering student interested in software development,
         problem-solving, and cybersecurity. I enjoy building practical software
         projects and continuously improving my technical skills through projects,
         coding practice, and hands-on learning.
     </p>
-</section>
-
-
-<!-- Skills -->
-<section id="skills">
-    <h2>Skills</h2>
-
-    <div class="card">
-        <h3>Programming Languages</h3>
-        <p>  Python, C++, C#   </p>
-    </div>
-
-    <div class="card">
-        <h3>Tools</h3>
-        <p>Git, GitHub, VS Code, Visual Studio, Pycharm</p>
-    </div>
-
-    <div class="card">
-        <h3>Web Technologies</h3>
-        <p>HTML, CSS</p>
     </div>
 </section>
 
-
-<!-- Projects -->
-<section id="projects">
-    <h2>Projects</h2>
-
-    <div class="card">
-        <h3>Student Result Management System</h3>
-        <p>
+<section id="portfolio-menu">
+   <div class="menu-grid">
+      <button onclick="showSection('projects')">Projects</button>
+      
+      <button onclick="showSection('skills')">Skills</button>
+    
+      <button onclick="showSection('certificates')">Certificates</button>
+        
+       <button onclick="showSection('resume')">Resume</button>
+    </div>
+    
+    <div id="content-area">
+       <div id="projects" class="content-section">
+           <h2>Projects</h2>
+           
+      <div class="card">
+           <h3>Student Result Management System</h3>
+           <p>
             Build a Python-based desktop application to demonstrate student
             records, courses, and examination results using OOP and Microsoft Access database integration.
-        </p>
-    </div>
+            </p>
+       </div>
 
-    <div class="card">
-        <h3>ColorSightPro - Color Blind Simulator</h3>
-        <p>
+       <div class="card">
+            <h3>ColorSightPro - Color Blind Simulator</h3>
+             <p>
             Developed C#-baseed Desktop application to manage and simulate
             color vision deficiency and display the digital report of patients by using OOP and MySql database integration .
-        </p>
-    </div>
+            </p>
+     </div>
 
-    <div class="card">
-        <h3>Wireless Power Transmission</h3>
-        <p>
+     <div class="card">
+            <h3>Wireless Power Transmission</h3>
+            <p>
             Construct hardware-based project to demonstrate efficient wireless power transfer from one device to another.
-        </p>
-    </div>
+            </p>
+     </div>
 
-    <div class="card">
-        <h3>AI Portfolio Website</h3>
-        <p>
+     <div class="card">
+            <h3>AI Portfolio Website</h3>
+            <p>
             Developed a responsive personal portfolio website to showcase
             my projects, technical skills, certifications, and professional
             profile as part of the FlyRank AI Internship.
-        </p>
-    </div>
-</section>
+            </p>
+     </div>
+</div>
+      <div id="skills" class="content-section">
+        <h2>Skills</h2>
 
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+           <div class="skill-items">
+               <span>Python</span>
+               <span>C++</span>
+               <span>C#</span>
+           </div>
+      </div>
 
-<!-- Certificates -->
-<section id="certificates">
-    <h2>Certificates</h2>
+      <div class="skill-category">
+        <h3>Tools</h3>
+            <div class="skill-items">
+               <span>Git</span>
+               <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Visual Studio</span>
+                <span>PyCharm</span>
+            </div>
+      </div>
 
-    <div class="card">
-        <h3>LeetCode Coding Challenge</h3>
-        <p>
+      <div class="skill-category">
+          <h3>Web Technologies</h3>
+             <div class="skill-items">
+                 <span>HTML</span>
+                 <span>CSS</span>
+             </div>
+     </div>
+  </div>
+                
+     <div id="content-area">
+        <div id="certificates" class="content-section">
+            <h2>Certificates</h2>
+            
+        <div class="card">
+           <h3>LeetCode Problem Solving Bootcamp</h3>
+            <p>
             Completed various coding challenges on LeetCode to improve
             problem-solving skills.
-        </p>
-    </div>
+            </p>
+        </div>
 
-    <div class="card">
-        <h3>AI Internship</h3>
-        <p>
-            Started an AI internship to gain knowledge and practical
-            experience in the field of artificial intelligence.
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>Google AI Professional Certificate</h3>
-        <p>
-            Completed the Google AI Professional Certificate course to
-            study artificial intelligence concepts and applications.
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>Fundamentals of Malware Analysis</h3>
-        <p>
+        <div class="card">
+            <h3>Fundamentals of Malware Analysis</h3>
+            <p>
             Attended a workshop on the fundamentals of malware analysis
             and gained knowledge about cybersecurity concepts.
-        </p>
+            </p>
+         </div>
+
+         <div class="card">
+            <h3>Generative AI in Action</h3>
+            <p>
+            Attended an onsite workshop on Generative AI to gain knowledge and hands-on experienceabout AI.
+            </p>
+         </div>
+           
+        <div class="card">
+           <h3>PROBATTLE'26</h3>
+            <p>
+            Participated in the Competitive Programming Module to enhance
+            problem-solving and algorithmic thinking skills.
+            </p>
+       </div>
+            
+      <div class="card">
+             <h3>Prompt & Context Enginerring in Gen AI</h3>
+             <p>
+             Participated in Youth leadership program webinar to enhance my skills in AI. 
+             </p>
+      </div>
+        
+      <div class="card">
+            <h3>AI Internship</h3>
+            <p>
+            Started an AI internship to gain knowledge and practical
+            experience in the field of artificial intelligence.
+            </p>
     </div>
 
     <div class="card">
-        <h3>PROBATTLE'26</h3>
-        <p>
-            Participated in the Competitive Programming Module to enhance
-            problem-solving and algorithmic thinking skills.
-        </p>
+           <h3>Google AI Professional Certificate</h3>
+           <p>
+            Completed the Google AI Professional Certificate course to
+            study artificial intelligence concepts and applications.
+            </p>
+    </div>
+</div>      
+     <div id="resume" class="content-section">
+            <h2>Resume</h2>
+
+            <p>
+                View my latest resume.
+            </p>
+            <a class="resume-button"
+               href="MEEZAB_REHMAT_FlowCV_Resume_2026-08-13.pdf"
+               target="_blank"
+               rel="noopener noreferrer">
+                Download CV
+            </a>
+        </div>
     </div>
 </section>
 
+<!-- Resume -->
 
 <section id="contact">
     <h2>Contact</h2>
-
-    <p>
+        <p>
         Email:
         <a href="mailto:meezabrehmat52@gmail.com">
             meezabrehmat52@gmail.com
         </a>
-    </p>
+        </p>
 
-    <p>
+        <p>
         GitHub:
         <a href="https://github.com/meezabrehmat18"
            target="_blank"
            rel="noopener noreferrer">
             github.com/meezabrehmat18
         </a>
-    </p>
+        </p>
 
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/meezab-rehmat-721594369/"
-           target="_blank"
-           rel="noopener noreferrer">
-            linkedin.com/in/meezab-rehmat
-        </a>
-    </p>
-
-</section>
-
-<!-- Resume -->
-
-<section id="resume">
-    <h2>Resume</h2>
-
-    <a class="resume-button"
-       href="MEEZAB_REHMAT_FlowCV_Resume_2026-08-13.pdf"
-       target="_blank"
-       rel="noopener noreferrer">
-        Download CV
-    </a>
+        <p>
+        Contact No: 0371-0290961
+        </p>    
 </section>
 <!-- Footer -->
 <footer>
     <p>© 2026 Meezab Rehmat | All Rights Reserved</p>
 </footer>
-
-
 <script src="script.js"></script>
-```
-
 </body>
 </html>
 
