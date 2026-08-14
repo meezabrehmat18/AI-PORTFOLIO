@@ -282,8 +282,8 @@ footer {
 }
 
 .certificate-img {
-    width: 280px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     background: white;
     border-radius: 8px;
